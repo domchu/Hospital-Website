@@ -8,5 +8,3 @@ hamburger.addEventListener("click", () =>{
 times.addEventListener("click", () =>{
     unlist.style.display ="none"
 })
-
-console.log("am working");

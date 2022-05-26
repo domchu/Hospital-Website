@@ -4,6 +4,17 @@
   list-style-type: none;
   text-decoration: none;
 }
+.first-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 50px;
+  background-color: #eee;
+  align-items: center;
+}
+.close {
+  font-size: 20px;
+}
 .page-cont {
   position: relative;
 }
@@ -34,14 +45,16 @@
   padding-left: 150px;
   padding-top: 20px;
   transition: 1s;
+  cursor: pointer;
 }
 .times:hover {
   font-size: 35px;
 }
 .head-cont {
   background-color: #379cd2;
-  height: auto;
+  height: 70px;
   display: flex;
+  align-items: center;
 }
 .head-wrap img {
   width: 200px;
@@ -59,12 +72,14 @@
 }
 .ham {
   font-size: 22px;
-  color: black;
+  color: #fff;
   transition: 1.5s;
+  margin-right: 80px;
+  cursor: pointer;
 }
 .ham:hover {
   font-size: 30px;
-  color: white;
+  color: #000;
 }
 .portal {
   padding: 20px;
@@ -357,6 +372,7 @@
   color: black;
   font-size: 30px;
   margin: 10px;
+  cursor: pointer;
 }
 .icon:hover {
   animation: fontrotate 2s infinite;
@@ -376,6 +392,7 @@
   background: #4cb1e7;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .site h2 {
   color: black;
